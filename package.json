@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "react": "^16.3.0-alpha.2",
-    "react-native": "0.54.2"
+    "react-native": "git://github.com/magicien/react-native.git#bugfix/textinput_markedtext"
   },
   "devDependencies": {
     "babel-eslint": "8.2.1",
