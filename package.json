@@ -1,0 +1,45 @@
+{
+  "name": "ReactNativeMarkedText",
+  "version": "0.0.1",
+  "private": true,
+  "prettier": {
+    "requirePragma": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": false,
+    "jsxBracketSameLine": true,
+    "parser": "flow"
+  },
+  "scripts": {
+    "test": "jest",
+    "flow": "flow",
+    "lint": "eslint .",
+    "prettier": "find . -name node_modules -prune -or -name '*.js' -print | xargs prettier --write",
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "^16.3.0-alpha.2",
+    "react-native": "0.54.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.2.1",
+    "babel-jest": "23.0.0-alpha.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "4.17.0",
+    "eslint-config-fb-strict": "22.1.0",
+    "eslint-config-fbjs": "2.0.1",
+    "eslint-plugin-eslint-comments": "2.0.2",
+    "eslint-plugin-flowtype": "2.43.0",
+    "eslint-plugin-jest": "21.8.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "eslint-plugin-react": "7.6.1",
+    "eslint-plugin-react-native": "^3.2.1",
+    "flow-bin": "^0.68.0",
+    "jest": "22.4.2",
+    "prettier": "1.9.1",
+    "react-test-renderer": "^16.3.0-alpha.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
